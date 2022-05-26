@@ -11,6 +11,7 @@
     <div class="container">
         <header class="header">
             <h1 id="header__logo">Adrian Colter</h1>
+            <h2 class="header__logo">Software Developer</h2>
             <nav class="header__nav">
                 <ul class="header__nav_list">
                 <li class="header__nav_listItem"><a href="#">About Me</a></li>
@@ -21,13 +22,59 @@
         </header>
         <section class="about__me">
             <figure>
-                <img src="#" alt="Portrait of Adrian Colter" class="about__me_image">
+                <img src="images/portrait.JPG" alt="Portrait of Adrian Colter" class="about__me_image">
             </figure>
             <article class="about__me_heading">
-                <h2>Hello, welcome to my portfolio!</h2>
-                <p>I am an entry-level software developer based in the greater Cleveland area. </p>
+                <h3>About Me</h3>
+                <p>Hello! My name is Adrian Colter and I am located in the greater Cleveland area. I am currently attending We Can Code IT to become a full stack developer. I graduated Kent State University in 2018 with a Bachelor of Arts in Communication Studies with an Applied Communication concentration. 
+                    I have been in the marketing/merchandising industry since I graduated college. I decided I wanted to make the switch over to tech in 2021, here are some skills I acquired throughout the years:</p>
+                <ul class="about__me_skills"></ul>
+                <li class="about__me_skills">Java</li>
+                <li class="about__me_skills">Oral & Written Communication</li>
+                <li class="about__me_skills">Time Management</li>
+                <li class="about__me_skills">Detail-Oriented</li>
+                <li class="about__me_skills">Creative Problem Solving</li>
+              <p>This website is to showcase my current software development projects. Feel free to reach out to me see more of my work!</p>
+              <ul class="about__me_contact"></ul>
+              <li class="about__me_contact">Email: acolter@kent.edu</li>
+              <li class="about__me_contact">Phone: (440) 344-3069</li>
             </article>
         </section>
+        <h3 class="project__title">My Current Projects</h3>
+        <section class="projects">
+            <article class="projects__column">
+                <h4 class="projects__column_title">Virtual Pet</h4>
+                <figure class="projects__column_figure">
+                    <img src="images/VirtualPet.jpeg" alt="Virtual Pet Screenshot" class="projects__column_figure">
+                    <input type="button" class="projects__column_button" value="See code" onclick="window.location.href='https://github.com/2022-April-Java-PT-Classroom/virtual-pet-acolter12'">
+                </figure>
+                <p>Virtual Pet is a java application that includes a game loop. The user is able to feed, water and walk a pet. The actions the user does to take care of the pet will cause either a positive or negative reaction to the pet's needs. 
+                    This application was built using basic java fundamentals and test driven development.</p>
+            </article>
+            <article class="projects__column">
+                <h4 class="projects__column_title">Virtual Pet Shelter</h4>
+                <figure class="projects__column_figure">
+                    <img src="images/VirtualPetShelter.jpeg" alt="Virtual Pet Shelter Screenshot" class="projects__column_figure">
+                    <input type="button" class="projects__column_button" value="See code" onclick="window.location.href='https://github.com/2022-April-Java-PT-Classroom/virtual-pet-shelter-acolter12'">
+                </figure>
+                <p>In Virtual Pet Shelter the user acts as a pet shelter volunteer and has the ability to take care of multiple pets or a single pet at a time. This application is built off Virtual Pet and has all of Virtual Pet's capabilities. </p>
+            </article>
+            <article class="projects__column">
+                <h4 class="projects__column_title">Virtual Pet Amok</h4>
+                <figure class="projects__column_figure">
+                    <img src="images/VirtualPetAmok.jpeg" alt="Virtual Pet Amok Screenshot" class="projects__column_figure">
+                    <input type="button" class="projects__column_button" value="See code" onclick="window.location.href='https://github.com/2022-April-Java-PT-Classroom/virtual-pet-amok-acolter12'">
+                </figure>
+                <p>Virtual Pet Amok is a java application that is an extension of Virtual Pet Shelter. In this application, the user acts as a pet shelter volunteer. Virtual Pet Amok is able to interact with different types of animals using object oriented programming plus has all the capabilities of Virtual Pet Shelter.</p>
+            </article>
+        </section>
+        <footer class="footer">
+            <small class="footer__copyright">&copy Adrian Colter 2022</small>
+            <section class="footer__social">
+                <a href="#" class="linkedin"></a>
+                <a href="#" class="github"></a>
+            </section>
+        </footer>
     </div>
   
 </body>
