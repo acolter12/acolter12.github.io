@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
@@ -21,52 +22,61 @@
         </header>
         <section id=about__me>
             <figure>
-                <img src="images/portrait.JPG" alt="Portrait of Adrian Colter" class="about__me_image">
+                <img src="images/IMG_2398.JPG" alt="Portrait of Adrian Colter" class="about__me_image">
             </figure>
             <article class="about__me_heading">
                 <h3>About Me</h3>
-                <p>Hello! My name is Adrian Colter and I am located in the greater Cleveland area. I am currently attending We Can Code IT to become a full stack developer. I graduated Kent State University in 2018 with a Bachelor of Arts in Communication Studies with an Applied Communication concentration. 
-                    I have been in the marketing/merchandising industry since I graduated college. I decided I wanted to make the switch over to tech in 2021, here are some skills I acquired throughout the years:</p>
-                <ul class="about__me_skills"></ul>
+                <p class="bio">Hello! My name is Adrian Colter and I am located in the greater Cleveland area. I graduated as a full stack developer from We Can Code IT in August. I hold a Bachelor of Arts in Communication Studies with a Photo-Illustration minor and have prior experience in the marketing industry. 
+                    I am eager to advance my skills and continue my learning in the software development field. Please feel free to check out a few of my projects that I have built while attending We Can Code IT displayed below. </p>
+                    My Technical Skills: </p>
+                <ul class="about__me_skillsList">
                 <li class="about__me_skills">Java</li>
-                <li class="about__me_skills">Oral & Written Communication</li>
-                <li class="about__me_skills">Time Management</li>
-                <li class="about__me_skills">Detail-Oriented</li>
-                <li class="about__me_skills">Creative Problem Solving</li>
+                <li class="about__me_skills">Spring</li>
+                <li class="about__me_skills">Thymeleaf</li>
+                <li class="about__me_skills">JavaScript</li>
+                <li class="about__me_skills">MVC</li>
+                <li class="about__me_skills">HTML & CSS</li>
+                <li class="about__me_skills">Test Driven Development</li>
+                <li class="about__me_skills">Agile(Scrum)</li>
+                <li class="about__me_skills">Object Oriented Programming(OOP)</li>
+                <li class="about__me_skills">React</li>
+                <li class="about__me_skills">REST APIs</li>
+                <li class="about__me_skills">GitHub</li>
+                <li class="about__me_skills">Responsive Design/Mobile</li>
+            </ul>
               <p>This website is to showcase my current software development projects. Feel free to reach out to me see more of my work!</p>
               <ul class="about__me_contact"></ul>
               <li class="about__me_contact">Email: acolter@kent.edu</li>
               <li class="about__me_contact">Phone: (440) 344-3069</li>
-              <li class="about__me_contact"><a href="https://www.linkedin.com/in/adrian-colter-819318236/">LinkedIn</a></li>
-              <li class="about__me_contact"><a href="https://github.com/acolter12">Github</a></li>          
+              <li class="about__me_contactLink"><a href="https://www.linkedin.com/in/adrian-colter-819318236/" target='_blank'><i class="fa fa-linkedin"></i></a><a href="https://github.com/acolter12" target='_blank'><i class="fa fa-github"></i></a></li>
+        
             </article>
         </section>
         <h3 class="project__title">My Current Projects</h3>
         <section id=projects>
             <article class="projects__column">
-                <h4 class="projects__column_title">Virtual Pet</h4>
+                <h4 class="projects__column_title">Donut Clicker</h4>
                 <figure class="projects__column_figure">
-                    <img src="images/VirtualPet.jpeg" alt="Virtual Pet Screenshot" class="projects__column_figure">
-                    <input type="button" class="projects__column_button" value="See code" onclick="window.location.href='https://github.com/2022-April-Java-PT-Classroom/virtual-pet-acolter12'">
+                    <img src="images/pexels-alexander-grey-3784440.jpg" alt="Example Pic of Donut Clicker" class="projects__column_figure">
+                    <input type="button"class="projects__column_button" value="See code" onclick="window.location.href='https://github.com/acolter12/donut-clicker-game'">
                 </figure>
-                <p>Virtual Pet is a java application that includes a game loop. The user is able to feed, water and walk a pet. The actions the user does to take care of the pet will cause either a positive or negative reaction to the pet's needs. 
-                    This application was built using basic java fundamentals and test driven development.</p>
+                <p>Worked solo to create a game where the user interacts with a button to increase their score and earn rewards. Used ES6 and OOP fundamentals to create an auto clicker & score multiplier to keep the game interesting and challenging for the user.</p>
             </article>
             <article class="projects__column">
-                <h4 class="projects__column_title">Virtual Pet Shelter</h4>
+                <h4 class="projects__column_title">JAC Enterprises</h4>
                 <figure class="projects__column_figure">
-                    <img src="images/VirtualPetShelter.jpeg" alt="Virtual Pet Shelter Screenshot" class="projects__column_figure">
-                    <input type="button" class="projects__column_button" value="See code" onclick="window.location.href='https://github.com/2022-April-Java-PT-Classroom/virtual-pet-shelter-acolter12'">
+                    <img src="images/pexels-caleb-oquendo-3162044.jpg" alt"="Example Pic of JAC " class="projects__column_figure">
+                    <input type="button" class="projects__column_button" value="See code" onclick="window.location.href='https://github.com/acolter12/spa-team-1-JAC'" target='_blank'>
                 </figure>
-                <p>In Virtual Pet Shelter the user acts as a pet shelter volunteer and has the ability to take care of multiple pets or a single pet at a time. This application is built off Virtual Pet and has all of Virtual Pet's capabilities. </p>
+                <p>Worked with a team to develop a fun, responsive children’s educational web application. </p>
             </article>
             <article class="projects__column">
-                <h4 class="projects__column_title">Virtual Pet Amok</h4>
+                <h4 class="projects__column_title">Agapé</h4>
                 <figure class="projects__column_figure">
-                    <img src="images/VirtualPetAmok.jpeg" alt="Virtual Pet Amok Screenshot" class="projects__column_figure">
-                    <input type="button" class="projects__column_button" value="See code" onclick="window.location.href='https://github.com/2022-April-Java-PT-Classroom/virtual-pet-amok-acolter12'">
+                    <img src="images/clay-banks-OvGIFsexb-8-unsplash.jpg" alt="Example Pic of Agapé" class="projects__column_figure">
+                    <input type="button" class="projects__column_button" value="See code" onclick="window.location.href='https://github.com/acolter12/final-project-team-agape'" target='_blank'>
                 </figure>
-                <p>Virtual Pet Amok is a java application that is an extension of Virtual Pet Shelter. In this application, the user acts as a pet shelter volunteer. Virtual Pet Amok is able to interact with different types of animals using object oriented programming plus has all the capabilities of Virtual Pet Shelter.</p>
+                <p>A social justice single page application that can be used as a resource for users to be able to educate themselves on social injustices, create events, and communicate with other users by utilizing the discussion forum.</p>
             </article>
         </section>
         <footer class="footer">
