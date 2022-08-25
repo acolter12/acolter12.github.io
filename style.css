@@ -212,12 +212,41 @@ a{
         flex-direction: column;
         margin: 0;
     }
+    .about__me_skillsList{
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        text-align:left;
+    }
+    .about__me_skills{
+        display: flex;
+        text-align:center;
+    }
+
+    .about__me_contact{
+        display: flex;
+        text-align:center;
+        justify-content: center;
+        margin-left: -5px;
+    }
+
+    .contact_me{
+        display: flex;
+        margin: 0;
+        margin-top: 15px;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10px;
+        
+    }
 
     #projects{
         display: flex;
         margin: 0;
         align-items: center;
         flex-direction: column;
+        text-align: center;
+        margin-right: .5rem;
     }
 
     .footer{
