@@ -10,9 +10,10 @@ const App = () => {
    <BrowserRouter>
    <div className={style.pages}>
   
-    <AppRouter/>
+    
    </div>
    <Header/>
+   <AppRouter/>
    <Footer/>
    </BrowserRouter>
   );

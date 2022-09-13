@@ -1,0 +1,57 @@
+.navBar{
+    z-index: 1;
+    display: flex;
+    justify-content:space-between;
+    background-color: #eba94a;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.pages{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 1rem;
+    background-size: 200% 100%;
+    background-position: -100%;
+     a{
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+        color: white;
+        
+    }
+    
+}
+
+.pageLink{
+    display: flex;
+    padding-left: 2rem;
+}
+
+
+.logo{
+    color:white;
+    padding-left: 1rem;
+
+    a{
+        text-decoration: none;
+    }
+}
+
+.logo:hover{
+    color: palevioletred;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: palevioletred;
+    animation-direction: reverse;
+}
+
